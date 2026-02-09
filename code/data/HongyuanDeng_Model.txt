@@ -1,0 +1,100 @@
+Coding Model Classification Results
+==============================================================================================================
+
+PART 1: Using Spacii.fa (divergence time t)
+==============================================================================================================
+Sequence ID          True Label      Prediction      Coding Score    Non-coding Score LLR        Result
+--------------------------------------------------------------------------------------------------------------
+SimSeq_c_1           Coding          Coding          -76.91          -82.05          5.14       ✓
+SimSeq_n_2           Non-coding      Non-coding      -248.07         -176.80         -71.27     ✓
+SimSeq_n_3           Non-coding      Non-coding      -214.74         -163.72         -51.01     ✓
+SimSeq_c_4           Coding          Coding          -70.04          -80.16          10.13      ✓
+SimSeq_c_5           Coding          Coding          -73.69          -89.93          16.24      ✓
+SimSeq_n_6           Non-coding      Non-coding      -211.11         -158.74         -52.36     ✓
+SimSeq_n_7           Non-coding      Non-coding      -207.00         -149.24         -57.75     ✓
+SimSeq_c_8           Coding          Coding          -73.06          -93.46          20.40      ✓
+SimSeq_n_9           Non-coding      Non-coding      -218.33         -155.33         -63.00     ✓
+SimSeq_n_10          Non-coding      Non-coding      -206.09         -155.17         -50.92     ✓
+SimSeq_c_11          Coding          Coding          -67.04          -81.42          14.38      ✓
+SimSeq_n_12          Non-coding      Non-coding      -228.48         -175.66         -52.82     ✓
+SimSeq_n_13          Non-coding      Non-coding      -233.68         -180.56         -53.12     ✓
+SimSeq_c_14          Coding          Coding          -54.93          -77.06          22.13      ✓
+SimSeq_c_15          Coding          Coding          -50.98          -69.53          18.54      ✓
+SimSeq_c_16          Coding          Coding          -85.13          -93.47          8.34       ✓
+SimSeq_n_17          Non-coding      Non-coding      -226.15         -165.88         -60.26     ✓
+SimSeq_c_18          Coding          Coding          -64.71          -72.51          7.81       ✓
+SimSeq_n_19          Non-coding      Non-coding      -231.31         -181.70         -49.61     ✓
+SimSeq_n_20          Non-coding      Non-coding      -181.74         -137.59         -44.15     ✓
+SimSeq_c_21          Coding          Coding          -66.17          -80.56          14.38      ✓
+SimSeq_c_22          Coding          Coding          -71.02          -86.88          15.85      ✓
+SimSeq_n_23          Non-coding      Non-coding      -243.49         -187.12         -56.37     ✓
+SimSeq_n_24          Non-coding      Non-coding      -253.60         -179.31         -74.29     ✓
+SimSeq_c_25          Coding          Coding          -46.37          -62.54          16.17      ✓
+SimSeq_c_26          Coding          Coding          -80.23          -90.64          10.41      ✓
+SimSeq_c_27          Coding          Coding          -77.20          -87.58          10.38      ✓
+SimSeq_c_28          Coding          Coding          -60.33          -67.92          7.59       ✓
+SimSeq_c_29          Coding          Coding          -62.50          -72.75          10.25      ✓
+SimSeq_n_30          Non-coding      Non-coding      -213.72         -156.78         -56.94     ✓
+SimSeq_c_31          Coding          Coding          -61.04          -69.96          8.92       ✓
+SimSeq_n_32          Non-coding      Non-coding      -235.33         -176.83         -58.49     ✓
+SimSeq_n_33          Non-coding      Non-coding      -225.50         -158.23         -67.26     ✓
+SimSeq_n_34          Non-coding      Non-coding      -225.93         -174.99         -50.93     ✓
+SimSeq_n_35          Non-coding      Non-coding      -195.53         -151.60         -43.93     ✓
+SimSeq_n_36          Non-coding      Non-coding      -215.93         -163.41         -52.51     ✓
+SimSeq_c_37          Coding          Coding          -79.29          -82.56          3.28       ✓
+SimSeq_n_38          Non-coding      Non-coding      -196.35         -146.62         -49.73     ✓
+SimSeq_c_39          Coding          Coding          -78.81          -90.33          11.52      ✓
+SimSeq_n_40          Non-coding      Non-coding      -239.23         -173.70         -65.53     ✓
+
+==============================================================================================================
+Accuracy: 40/40 = 100.00%
+
+
+==============================================================================================================
+PART 2: Using Spacii_2100.fa (divergence time ~2t)
+==============================================================================================================
+Sequence ID          True Label      Prediction      Coding Score    Non-coding Score LLR        Result
+--------------------------------------------------------------------------------------------------------------
+SimSeq_c_1           Coding          Non-coding      -326.35         -238.07         -88.28     ✗
+SimSeq_n_2           Non-coding      Non-coding      -500.45         -365.62         -134.83    ✓
+SimSeq_n_3           Non-coding      Non-coding      -497.26         -369.15         -128.11    ✓
+SimSeq_c_4           Coding          Non-coding      -368.34         -276.29         -92.05     ✗
+SimSeq_c_5           Coding          Non-coding      -418.70         -310.64         -108.07    ✗
+SimSeq_n_6           Non-coding      Non-coding      -395.07         -279.94         -115.13    ✓
+SimSeq_n_7           Non-coding      Non-coding      -442.24         -316.56         -125.68    ✓
+SimSeq_c_8           Coding          Non-coding      -426.16         -317.26         -108.89    ✗
+SimSeq_n_9           Non-coding      Non-coding      -369.27         -269.58         -99.69     ✓
+SimSeq_n_10          Non-coding      Non-coding      -421.40         -316.76         -104.64    ✓
+SimSeq_c_11          Coding          Non-coding      -331.52         -245.56         -85.96     ✗
+SimSeq_n_12          Non-coding      Non-coding      -531.79         -392.43         -139.37    ✓
+SimSeq_n_13          Non-coding      Non-coding      -477.33         -349.17         -128.16    ✓
+SimSeq_c_14          Coding          Non-coding      -404.64         -296.23         -108.41    ✗
+SimSeq_c_15          Coding          Non-coding      -352.76         -251.37         -101.38    ✗
+SimSeq_c_16          Coding          Non-coding      -360.98         -267.34         -93.64     ✗
+SimSeq_n_17          Non-coding      Non-coding      -465.95         -339.33         -126.62    ✓
+SimSeq_c_18          Coding          Non-coding      -313.89         -235.56         -78.33     ✗
+SimSeq_n_19          Non-coding      Non-coding      -513.18         -380.41         -132.77    ✓
+SimSeq_n_20          Non-coding      Non-coding      -404.57         -291.87         -112.70    ✓
+SimSeq_c_21          Coding          Non-coding      -347.42         -259.41         -88.00     ✗
+SimSeq_c_22          Coding          Non-coding      -371.01         -278.69         -92.32     ✗
+SimSeq_n_23          Non-coding      Non-coding      -521.69         -374.76         -146.93    ✓
+SimSeq_n_24          Non-coding      Non-coding      -404.76         -291.72         -113.04    ✓
+SimSeq_c_25          Coding          Non-coding      -339.62         -246.74         -92.88     ✗
+SimSeq_c_26          Coding          Non-coding      -397.25         -292.03         -105.22    ✗
+SimSeq_c_27          Coding          Non-coding      -375.45         -269.07         -106.38    ✗
+SimSeq_c_28          Coding          Non-coding      -322.78         -233.01         -89.78     ✗
+SimSeq_c_29          Coding          Non-coding      -362.49         -266.68         -95.81     ✗
+SimSeq_n_30          Non-coding      Non-coding      -460.75         -337.56         -123.19    ✓
+SimSeq_c_31          Coding          Non-coding      -297.91         -225.11         -72.79     ✗
+SimSeq_n_32          Non-coding      Non-coding      -452.60         -335.36         -117.25    ✓
+SimSeq_n_33          Non-coding      Non-coding      -404.79         -289.68         -115.11    ✓
+SimSeq_n_34          Non-coding      Non-coding      -384.16         -281.55         -102.60    ✓
+SimSeq_n_35          Non-coding      Non-coding      -408.02         -303.69         -104.33    ✓
+SimSeq_n_36          Non-coding      Non-coding      -426.54         -308.32         -118.22    ✓
+SimSeq_c_37          Coding          Non-coding      -352.56         -263.69         -88.87     ✗
+SimSeq_n_38          Non-coding      Non-coding      -437.35         -313.34         -124.01    ✓
+SimSeq_c_39          Coding          Non-coding      -354.75         -264.87         -89.88     ✗
+SimSeq_n_40          Non-coding      Non-coding      -433.07         -318.60         -114.47    ✓
+
+==============================================================================================================
+Accuracy: 21/40 = 52.50%
